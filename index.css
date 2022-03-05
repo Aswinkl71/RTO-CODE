@@ -1,0 +1,66 @@
+.typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: #bd0f0f;
+    
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./a.jpg);
+    height: 655px;
+    background-position: center;
+    background-size: cover;
+}
+.wrapper {
+    height: 10vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rto{
+    height: 10vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+    button:hover{
+        color: #4ad395;
+    }
+    button{ 
+        font-family: 'Poppins', sans-serif;  
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem 1rem;
+    border: 5px   solid #5420a7;
+    border-radius: 2.5rem;
+    margin-left: 1.5rem;
+    }
+    
+
+
+   
+    
+        
+
+
